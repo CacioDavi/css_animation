@@ -1,0 +1,41 @@
+.link{
+    text-decoration: none;
+    color: rgb(235, 230, 230);
+    background-color: #2E2E2E;
+    list-style: none;
+    padding-bottom: 30px;
+    width: 200px;
+    height: 35px;
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 12px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.link:hover{
+    cursor: pointer;
+    background-color: rgb(25,25,25 );
+    transition: 1200ms;
+}
+.list{
+    float: left;
+    margin-left: -1%;
+    padding-left: 0;
+    padding-right: 2%;
+    margin-left: -2%;
+    margin-top: -2.7%;
+}
+.link_ti{
+    text-decoration: none;
+    color: rgb(235, 230, 230);
+    text-align: center;
+}
+.divtextconfig{
+    text-align: left;
+    background-color: black;
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-bottom: 1%;
+    padding-right: 10px;
+    margin-bottom: 3px;
+}
