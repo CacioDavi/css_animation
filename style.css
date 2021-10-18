@@ -1,3 +1,6 @@
+body{
+    transition: 9ms;
+}
 .link{
     text-decoration: none;
     color: rgb(235, 230, 230);
@@ -15,7 +18,7 @@
 .link:hover{
     cursor: pointer;
     background-color: rgb(25,25,25 );
-    transition: 1200ms;
+    transition: 1900ms;
 }
 .list{
     float: left;
@@ -23,7 +26,7 @@
     padding-left: 0;
     padding-right: 2%;
     margin-left: -2%;
-    margin-top: -2.7%;
+    margin-top: -3.2%;
 }
 .link_ti{
     text-decoration: none;
@@ -31,11 +34,18 @@
     text-align: center;
 }
 .divtextconfig{
-    text-align: left;
     background-color: black;
     padding-top: 15%;
     padding-left: 15%;
-    padding-bottom: 1%;
-    padding-right: 10px;
+    padding-bottom: 2%;
     margin-bottom: 3px;
+}
+.cab{
+    list-style: none;
+    display: flex;
+    margin-left: -30%;
+    text-align: left;
+}
+.togle:hover{
+    cursor: pointer;
 }
