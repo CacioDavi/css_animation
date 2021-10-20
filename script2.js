@@ -1,5 +1,4 @@
 var ver = true;
-var verificacao = false
 function background(elemento){
 
     if (ver == true){
@@ -14,14 +13,5 @@ function background(elemento){
     }
 };
 function Translation(elemento){
-    window.location.href = "file:///C:/projetos/css_animation/en.html"
-}
-function toogler(){
-    if(verificacao === false){
-        document.getElementById("id").style.marginLeft = '-205px'
-        verificacao = true
-    }else if(verificacao === true){
-        document.getElementById("id").style.marginLeft = '5px'
-        verificacao = false
-    }
+    window.location.href = "file:///C:/projetos/css_animation/pt-Br.html"
 }

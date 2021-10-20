@@ -7,23 +7,26 @@
         <title>Minha Página</title>
     </head>
     <body id="body">
-        <div>
-            <ul class="list">
+        <div id="id" class="id" onselectstart="return false">
+            <img id="btn-togle" onclick="toogler()"onselectstart="return false" class="togle"src="img/btn.png">
+            <ul class="list" onselectstart="return false">
                 <li>
-                    <div class="divtextconfig">
+                    <div class="divtextconfig" onselectstart="return false">
                         <ul class="cab">
-                            <li><img onclick="toogler()" class="togle"src="img/icone.png"></li>
                             <li><br><a href="" class="link_ti"><h2>Functional<br>Code</h2></a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="link" onclick="background(this)"><h3>Papel de Parede</h3></li>
-                <li class="link" onclick="text(this)"><h3>Texto</h3></li>
+                <li class="link" onclick="Translation(this)"><h3>Tradução</h3></li>
                 <li class="link" onclick="links(this)"><h3>Links</h3></li>
                 <li class="link" onclick="contact(this)"><h3>Contato</h3></li>
                 <li class="link" onclick="suport(this)"><h3>Suporte</h3></li>
                 <li class="link" onclick="help(this)"><h3>Ajuda</h3></li>
             </ul>
+        </div>
+        <div>
+            <p id="text" class="p">este texto está em Português</p>
         </div>
     </body>
 </html>
